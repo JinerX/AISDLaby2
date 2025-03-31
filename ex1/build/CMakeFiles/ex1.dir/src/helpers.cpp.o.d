@@ -1,5 +1,5 @@
 CMakeFiles/ex1.dir/src/helpers.cpp.o: \
- /home/js/Desktop/Studia/AISD/List2/ex1/src/helpers.cpp \
+ /home/js/Desktop/Studia/AISD/AISDLaby2/ex1/src/helpers.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14/vector \
  /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
@@ -155,4 +155,4 @@ CMakeFiles/ex1.dir/src/helpers.cpp.o: \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
  /usr/include/c++/14/bits/istream.tcc /usr/include/c++/14/sstream \
  /usr/include/c++/14/bits/sstream.tcc \
- /home/js/Desktop/Studia/AISD/List2/ex1/include/helpers.hpp
+ /home/js/Desktop/Studia/AISD/AISDLaby2/ex1/include/helpers.hpp

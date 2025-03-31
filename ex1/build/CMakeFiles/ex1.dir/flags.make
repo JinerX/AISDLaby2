@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/js/Desktop/Studia/AISD/List2/ex1/include
+CXX_INCLUDES = -I/home/js/Desktop/Studia/AISD/AISDLaby2/ex1/include
 
-CXX_FLAGS = -g
+CXX_FLAGS = 
 

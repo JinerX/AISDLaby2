@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/js/Desktop/Studia/AISD/List2/ex1
+CMAKE_SOURCE_DIR = /home/js/Desktop/Studia/AISD/AISDLaby2/ex1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/js/Desktop/Studia/AISD/List2/ex1/build
+CMAKE_BINARY_DIR = /home/js/Desktop/Studia/AISD/AISDLaby2/ex1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ex1.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/ex1.dir/progress.make
 include CMakeFiles/ex1.dir/flags.make
 
 CMakeFiles/ex1.dir/main.cpp.o: CMakeFiles/ex1.dir/flags.make
-CMakeFiles/ex1.dir/main.cpp.o: /home/js/Desktop/Studia/AISD/List2/ex1/main.cpp
+CMakeFiles/ex1.dir/main.cpp.o: /home/js/Desktop/Studia/AISD/AISDLaby2/ex1/main.cpp
 CMakeFiles/ex1.dir/main.cpp.o: CMakeFiles/ex1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/js/Desktop/Studia/AISD/List2/ex1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex1.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ex1.dir/main.cpp.o -MF CMakeFiles/ex1.dir/main.cpp.o.d -o CMakeFiles/ex1.dir/main.cpp.o -c /home/js/Desktop/Studia/AISD/List2/ex1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/js/Desktop/Studia/AISD/AISDLaby2/ex1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex1.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ex1.dir/main.cpp.o -MF CMakeFiles/ex1.dir/main.cpp.o.d -o CMakeFiles/ex1.dir/main.cpp.o -c /home/js/Desktop/Studia/AISD/AISDLaby2/ex1/main.cpp
 
 CMakeFiles/ex1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ex1.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/js/Desktop/Studia/AISD/List2/ex1/main.cpp > CMakeFiles/ex1.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/js/Desktop/Studia/AISD/AISDLaby2/ex1/main.cpp > CMakeFiles/ex1.dir/main.cpp.i
 
 CMakeFiles/ex1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ex1.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/js/Desktop/Studia/AISD/List2/ex1/main.cpp -o CMakeFiles/ex1.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/js/Desktop/Studia/AISD/AISDLaby2/ex1/main.cpp -o CMakeFiles/ex1.dir/main.cpp.s
 
 CMakeFiles/ex1.dir/src/helpers.cpp.o: CMakeFiles/ex1.dir/flags.make
-CMakeFiles/ex1.dir/src/helpers.cpp.o: /home/js/Desktop/Studia/AISD/List2/ex1/src/helpers.cpp
+CMakeFiles/ex1.dir/src/helpers.cpp.o: /home/js/Desktop/Studia/AISD/AISDLaby2/ex1/src/helpers.cpp
 CMakeFiles/ex1.dir/src/helpers.cpp.o: CMakeFiles/ex1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/js/Desktop/Studia/AISD/List2/ex1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex1.dir/src/helpers.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ex1.dir/src/helpers.cpp.o -MF CMakeFiles/ex1.dir/src/helpers.cpp.o.d -o CMakeFiles/ex1.dir/src/helpers.cpp.o -c /home/js/Desktop/Studia/AISD/List2/ex1/src/helpers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/js/Desktop/Studia/AISD/AISDLaby2/ex1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex1.dir/src/helpers.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ex1.dir/src/helpers.cpp.o -MF CMakeFiles/ex1.dir/src/helpers.cpp.o.d -o CMakeFiles/ex1.dir/src/helpers.cpp.o -c /home/js/Desktop/Studia/AISD/AISDLaby2/ex1/src/helpers.cpp
 
 CMakeFiles/ex1.dir/src/helpers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ex1.dir/src/helpers.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/js/Desktop/Studia/AISD/List2/ex1/src/helpers.cpp > CMakeFiles/ex1.dir/src/helpers.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/js/Desktop/Studia/AISD/AISDLaby2/ex1/src/helpers.cpp > CMakeFiles/ex1.dir/src/helpers.cpp.i
 
 CMakeFiles/ex1.dir/src/helpers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ex1.dir/src/helpers.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/js/Desktop/Studia/AISD/List2/ex1/src/helpers.cpp -o CMakeFiles/ex1.dir/src/helpers.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/js/Desktop/Studia/AISD/AISDLaby2/ex1/src/helpers.cpp -o CMakeFiles/ex1.dir/src/helpers.cpp.s
 
 # Object files for target ex1
 ex1_OBJECTS = \
@@ -109,7 +109,7 @@ ex1: CMakeFiles/ex1.dir/main.cpp.o
 ex1: CMakeFiles/ex1.dir/src/helpers.cpp.o
 ex1: CMakeFiles/ex1.dir/build.make
 ex1: CMakeFiles/ex1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/js/Desktop/Studia/AISD/List2/ex1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ex1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/js/Desktop/Studia/AISD/AISDLaby2/ex1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ex1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/ex1.dir/clean:
 .PHONY : CMakeFiles/ex1.dir/clean
 
 CMakeFiles/ex1.dir/depend:
-	cd /home/js/Desktop/Studia/AISD/List2/ex1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/js/Desktop/Studia/AISD/List2/ex1 /home/js/Desktop/Studia/AISD/List2/ex1 /home/js/Desktop/Studia/AISD/List2/ex1/build /home/js/Desktop/Studia/AISD/List2/ex1/build /home/js/Desktop/Studia/AISD/List2/ex1/build/CMakeFiles/ex1.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/js/Desktop/Studia/AISD/AISDLaby2/ex1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/js/Desktop/Studia/AISD/AISDLaby2/ex1 /home/js/Desktop/Studia/AISD/AISDLaby2/ex1 /home/js/Desktop/Studia/AISD/AISDLaby2/ex1/build /home/js/Desktop/Studia/AISD/AISDLaby2/ex1/build /home/js/Desktop/Studia/AISD/AISDLaby2/ex1/build/CMakeFiles/ex1.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ex1.dir/depend
 

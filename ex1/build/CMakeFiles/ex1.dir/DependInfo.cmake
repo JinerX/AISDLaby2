@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/js/Desktop/Studia/AISD/List2/ex1/main.cpp" "CMakeFiles/ex1.dir/main.cpp.o" "gcc" "CMakeFiles/ex1.dir/main.cpp.o.d"
-  "/home/js/Desktop/Studia/AISD/List2/ex1/src/helpers.cpp" "CMakeFiles/ex1.dir/src/helpers.cpp.o" "gcc" "CMakeFiles/ex1.dir/src/helpers.cpp.o.d"
+  "/home/js/Desktop/Studia/AISD/AISDLaby2/ex1/main.cpp" "CMakeFiles/ex1.dir/main.cpp.o" "gcc" "CMakeFiles/ex1.dir/main.cpp.o.d"
+  "/home/js/Desktop/Studia/AISD/AISDLaby2/ex1/src/helpers.cpp" "CMakeFiles/ex1.dir/src/helpers.cpp.o" "gcc" "CMakeFiles/ex1.dir/src/helpers.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

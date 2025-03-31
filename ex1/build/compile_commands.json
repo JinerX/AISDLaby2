@@ -1,14 +1,14 @@
 [
 {
-  "directory": "/home/js/Desktop/Studia/AISD/List2/ex1/build",
-  "command": "/usr/bin/c++  -I/home/js/Desktop/Studia/AISD/List2/ex1/include -g -o CMakeFiles/ex1.dir/main.cpp.o -c /home/js/Desktop/Studia/AISD/List2/ex1/main.cpp",
-  "file": "/home/js/Desktop/Studia/AISD/List2/ex1/main.cpp",
+  "directory": "/home/js/Desktop/Studia/AISD/AISDLaby2/ex1/build",
+  "command": "/usr/bin/c++  -I/home/js/Desktop/Studia/AISD/AISDLaby2/ex1/include  -o CMakeFiles/ex1.dir/main.cpp.o -c /home/js/Desktop/Studia/AISD/AISDLaby2/ex1/main.cpp",
+  "file": "/home/js/Desktop/Studia/AISD/AISDLaby2/ex1/main.cpp",
   "output": "CMakeFiles/ex1.dir/main.cpp.o"
 },
 {
-  "directory": "/home/js/Desktop/Studia/AISD/List2/ex1/build",
-  "command": "/usr/bin/c++  -I/home/js/Desktop/Studia/AISD/List2/ex1/include -g -o CMakeFiles/ex1.dir/src/helpers.cpp.o -c /home/js/Desktop/Studia/AISD/List2/ex1/src/helpers.cpp",
-  "file": "/home/js/Desktop/Studia/AISD/List2/ex1/src/helpers.cpp",
+  "directory": "/home/js/Desktop/Studia/AISD/AISDLaby2/ex1/build",
+  "command": "/usr/bin/c++  -I/home/js/Desktop/Studia/AISD/AISDLaby2/ex1/include  -o CMakeFiles/ex1.dir/src/helpers.cpp.o -c /home/js/Desktop/Studia/AISD/AISDLaby2/ex1/src/helpers.cpp",
+  "file": "/home/js/Desktop/Studia/AISD/AISDLaby2/ex1/src/helpers.cpp",
   "output": "CMakeFiles/ex1.dir/src/helpers.cpp.o"
 }
 ]
