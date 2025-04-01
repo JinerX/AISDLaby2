@@ -1,15 +1,12 @@
-// INSERTION SORT
-
-
+// QUICKSORT
 #include <iostream>
 #include "helpers.hpp"
-#include <tuple>
-#include <vector>
-#include "InSort.hpp"
 #include "QuickSort.hpp"
+#include <vector>
+#include <tuple>
 
 
-int main(int, char**){
+int main() {
     bool print = false;
 
 
@@ -29,7 +26,7 @@ int main(int, char**){
         print = true;
     }
 
-    mine_insertion_sort(&list, print);
+    qs(&list, 0, len - 1, print);
 
     std::cout << "Tablica wejściowa: " << std::endl;
     print_array(&cpy);

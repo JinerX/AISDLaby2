@@ -16,6 +16,7 @@ void mine_insertion_sort(std::vector<int>* unsorted_list, bool print) {
         }
         assign_val((*unsorted_list).at(j+1), a);
         if (print) {
+            std::cout << "List after step " << std::endl;
             print_array(unsorted_list);
         }
     }

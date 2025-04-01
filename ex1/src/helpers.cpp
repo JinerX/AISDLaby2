@@ -93,8 +93,8 @@ void generate_sorted_input(int length, int max_val, bool desc = false) {
 }
 
 
-void print_array(const std::vector<int>& arr) {
-    for (const auto& elem : arr)
+void print_array(std::vector<int>* arr) {
+    for (const auto& elem : (*arr))
         std::cout << elem << " ";
     std::cout << std::endl;
 }
