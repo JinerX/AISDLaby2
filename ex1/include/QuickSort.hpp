@@ -2,6 +2,7 @@
 #define QUICKSORT_HPP
 
 #include <vector>
+#include "helpers.hpp"
 
 int my_partition(std::vector<int>* list, int lo, int hi) {
     int pivot = (*list).at(lo);
@@ -12,28 +13,29 @@ int my_partition(std::vector<int>* list, int lo, int hi) {
         do
         {
             i++;
-        } while ((*list).at(i) < pivot);
+        } while (less_than((*list).at(i), pivot));
 
         do
         {
             j--;
-        } while ((*list).at(j) > pivot);
+        } while (greater_than((*list).at(j), pivot));
         
         if (i >= j) {
             return j;
         }
 
-        int tmp = (*list).at(i);
-        (*list).at(i) = (*list).at(j);
-        (*list).at(j) = tmp;
+        swap_vals((*list).at(i),(*list).at(j));
     }   
 }
 
-void qs(std::vector<int>* unsorted_list, int lo, int hi) {
+void qs(std::vector<int>* unsorted_list, int lo, int hi, bool print) {
     if (lo < hi) {
         int p = my_partition(unsorted_list, lo, hi);
-        qs(unsorted_list, lo, p);
-        qs(unsorted_list, p + 1, hi);
+        if (print) {
+            print_array(unsorted_list);
+        }
+        qs(unsorted_list, lo, p, print);
+        qs(unsorted_list, p + 1, hi, print);
     }
 }
 

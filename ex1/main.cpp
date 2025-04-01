@@ -1,3 +1,6 @@
+// INSERTION SORT
+
+
 #include <iostream>
 #include "helpers.hpp"
 #include <tuple>
@@ -7,35 +10,35 @@
 
 
 int main(int, char**){
+    bool print = false;
+
+
     std::tuple<int, std::vector<int>> tup;
     tup = read_input();
     int len;
     std::vector<int> list;
     len = std::get<0>(tup);
     list = std::get<1>(tup);
+    std::vector<int>cpy = list;
     std::cout << "len: " << len << std::endl;
-    std::cout << "list: ";
+    std::cout << "original list: ";
     for (const auto& elem : list)
         std::cout << elem << " ";
     std::cout << std::endl;
 
-    mine_insertion_sort(&list);
-    std::cout << "After sorting insertion sort: " << std::endl;
-    for (const auto& elem : list)
-        std::cout << elem << " ";
-    std::cout << std::endl;
+    if (len > 40) {
+        print = true;
+    }
 
-    std::vector<int> test_vec = {8,1,9,0,4,1,4,6,10,15,3,2,20};
-    int test_length = 13;
+    mine_insertion_sort(&list, print);
 
-    std::cout << "list2: ";
-    for (const auto& elem : test_vec)
-        std::cout << elem << " ";
-    std::cout << std::endl;
+    std::cout << "Tablica wejściowa: " << std::endl;
+    print_array(&cpy);
 
-    qs(&test_vec, 0, test_length - 1);
-    std::cout << "After sorting quick sort: " << std::endl;
-    for (const auto& elem : test_vec)
-        std::cout << elem << " ";
-    std::cout << std::endl;
+    std::cout << "Tablica po sortowaniu: " << std::endl;
+    print_array(&cpy);
+    std::cout << "Liczba porównań: " << get_comparisons() << std::endl;
+    std::cout << "Liczba przestawień: " << get_moves() << std::endl;
+
+    return 0;
 }
